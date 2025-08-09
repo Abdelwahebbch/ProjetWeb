@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Mostaqbal - Couture, Forgeron & Pâtisserie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Centre de Formation Professionnelle Al-Mostaqbal</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#formations" class="nav-link">Formations</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+ 
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Apprenez les Arts Traditionnels</h1>
+            <p>Découvrez nos formations professionnelles en couture, forge et pâtisserie. Maîtrisez des savoir-faire
+                ancestraux avec des experts passionnés.</p>
+            <a href="#formations" class="cta-button">Découvrir nos formations</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/webbg.png">
+        </div>
+    </section>
+
+ 
+    <section id="formations" class="formations">
+        <div class="container">
+            <h2 class="section-title">Nos Formations</h2>
+            <div class="formations-grid">
+            
+                <div class="formation-card" data-formation="couture">
+                    <div class="card-image">
+                        <img src="images/image1.jpg" alt="Formation Couture">
+                    </div>
+                    <div class="card-content">
+                        <h3>Formation Couture</h3>
+                        <p>Apprenez les techniques de couture traditionnelles et modernes. De la prise de mesures à la
+                            confection complète.</p>
+                        <ul class="formation-details">
+                            <li>Durée: 6 mois</li>
+                            <li>Niveau: Débutant à avancé</li>
+                            <li>Certificat inclus</li>
+                        </ul>
+                        <button class="btn-details" onclick="openModal('couture')">En savoir plus</button>
+                    </div>
+                </div>
+
+                <div class="formation-card" data-formation="forgeron">
+                    <div class="card-image">
+                        <img src="images/image2.png" alt="Formation Forgeron">
+                    </div>
+                    <div class="card-content">
+                        <h3>Formation Forgeron</h3>
+                        <p>Maîtrisez l'art ancestral de la forge. Travaillez le métal à chaud et créez des pièces
+                            uniques.</p>
+                        <ul class="formation-details">
+                            <li>Durée: 8 mois</li>
+                            <li>Niveau: Débutant à expert</li>
+                            <li>Atelier équipé</li>
+                        </ul>
+                        <button class="btn-details" onclick="openModal('forgeron')">En savoir plus</button>
+                    </div>
+                </div>
+
+                <div class="formation-card" data-formation="patisserie">
+                    <div class="card-image">
+                        <img src="images/image.png" alt="Formation Pâtisserie">
+                    </div>
+                    <div class="card-content">
+                        <h3>Formation Pâtisserie</h3>
+                        <p>Découvrez les secrets de la pâtisserie française. Des bases aux créations les plus raffinées.
+                        </p>
+                        <ul class="formation-details">
+                            <li>Durée: 4 mois</li>
+                            <li>Niveau: Tous niveaux</li>
+                            <li>Laboratoire professionnel</li>
+                        </ul>
+                        <button class="btn-details" onclick="openModal('patisserie')">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À propos de nous</h2>
+                    <p>Depuis plus de 20 ans, nous transmettons les savoir-faire artisanaux traditionnels. Notre équipe
+                        d'experts passionnés vous accompagne dans l'apprentissage de métiers d'art authentiques.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Élèves formés</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15</h3>
+                            <p>Formateurs experts</p>
+                        </div>
+                        <div class="stat">
+                            <h3>95%</h3>
+                            <p>Taux de réussite</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/logo.png" alt="Atelier de formation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de contact</h3>
+                    <div class="contact-item">
+                        <strong>Adresse:</strong>
+                        <p>Bir Ali Ben Khlifa<br>Sfax</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Téléphone:</strong>
+                        <p>+216 98 279 898</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <p>contact@mostaqbal.tn</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Horaires:</strong>
+                        <p>Lun-Ven: 9h-18h<br>Sam: 9h-12h</p>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="submitForm(event)">
+                    <div class="form-group">
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="formation" name="formation" required>
+                            <option value="">Choisir une formation</option>
+                            <option value="couture">Formation Couture</option>
+                            <option value="forgeron">Formation Forgeron</option>
+                            <option value="patisserie">Formation Pâtisserie</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Centre de Formation Professionnelle Al-Mostaqbal</h3>
+                    <p>Transmetteur de savoir-faire traditionnels depuis 2003</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Formations</h4>
+                    <ul>
+                        <li><a href="#formations">Couture</a></li>
+                        <li><a href="#formations">Forgeron</a></li>
+                        <li><a href="#formations">Pâtisserie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Bir Ali Ben Khlifa<br>Sfax</p>
+                    <p>+216 98 279 898</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Centre de Formation Professionnelle Al-Mostaqbal. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="model-couture" class="model">
+        <div class="formation-detailes">
+            <span class="close" onclick="closeModal('couture')">X</span>
+            <h2>Formation Couture</h2>
+            <img src="images/image1.jpg" alt="Atelier couture">
+            <h3>Programme détaillé</h3>
+            <ul>
+                <li>Bases de la couture et utilisation des machines</li>
+                <li>Prise de mesures et patronage</li>
+                <li>Techniques de coupe et d'assemblage</li>
+                <li>Finitions et retouches professionnelles</li>
+                <li>Création de vêtements sur mesure</li>
+            </ul>
+            <p><strong>Prix:</strong> 1200 TND</p>
+            <p><strong>Prochaine session:</strong> 15 janvier 2025</p>
+        </div>
+    </div>
+
+    <div id="model-forgeron" class="model">
+        <div class="formation-detailes">
+            <span class="close" onclick="closeModal('forgeron')">X</span>
+            <h2>Formation Forgeron</h2>
+            <img src="images/image2.png" alt="Forge en action">
+            <h3>Programme détaillé</h3>
+            <ul>
+                <li>Sécurité et manipulation des outils</li>
+                <li>Allumage et entretien de la forge</li>
+                <li>Techniques de base: étirage, refoulement, cintrage</li>
+                <li>Soudure et assemblage</li>
+                <li>Création d'objets décoratifs et utilitaires</li>
+            </ul>
+            <p><strong>Prix:</strong> 1800 TND</p>
+            <p><strong>Prochaine session:</strong> 1er février 2025</p>
+        </div>
+    </div>
+
+    <div id="model-patisserie" class="model">
+        <div class="formation-detailes">
+            <span class="close" onclick="closeModal('patisserie')">X</span>
+            <h2>Formation Pâtisserie</h2>
+            <img src="images/image.png" alt="Laboratoire pâtisserie">
+            <h3>Programme détaillé</h3>
+            <ul>
+                <li>Pâtes de base et crèmes classiques</li>
+                <li>Techniques de décoration</li>
+                <li>Viennoiseries et pains spéciaux</li>
+                <li>Entremets et gâteaux d'occasion</li>
+                <li>Chocolaterie et confiserie</li>
+            </ul>
+            <p><strong>Prix:</strong> 950 TND</p>
+            <p><strong>Prochaine session:</strong> 20 janvier 2025</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
